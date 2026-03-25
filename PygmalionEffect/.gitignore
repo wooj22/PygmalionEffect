@@ -1,0 +1,106 @@
+# =========================
+# Visual Studio / IDE
+# =========================
+.vs/
+.vscode/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+.vsconfig
+
+# =========================
+# Compiled Source / Objects
+# =========================
+*.slo
+*.lo
+*.o
+*.obj
+*.gch
+*.pch
+*.mod
+
+# =========================
+# Libraries
+# =========================
+*.so
+*.dylib
+*.dll
+*.lai
+*.la
+*.a
+*.lib
+
+# =========================
+# Executables
+# =========================
+*.exe
+*.out
+*.app
+*.ipa
+
+# =========================
+# Unreal Generated Project Files
+# =========================
+*.xcodeproj
+*.xcworkspace
+
+# =========================
+# Precompiled Assets (Source Art Only)
+# =========================
+SourceArt/**/*.png
+SourceArt/**/*.tga
+
+# =========================
+# Unreal Build / Binaries
+# =========================
+Binaries/*
+Plugins/**/Binaries/*
+
+# =========================
+# Build Outputs
+# =========================
+Build/*
+
+# Allow specific build config files
+!Build/*/
+Build/*/**
+!Build/*/PakBlacklist*.txt
+!Build/**/*.ico
+
+# =========================
+# Unreal Cache / Temp
+# =========================
+Saved/*
+Intermediate/*
+Plugins/**/Intermediate/*
+DerivedDataCache/*
+
+# =========================
+# Map Build Data
+# =========================
+*_BuiltData.uasset
+
+# =========================
+# Developers Folder (KEEP, but ignore cache)
+# =========================
+Developers/*/Saved/*
+Developers/*/Intermediate/*
+
+# =========================
+# Collections (local only, prevent merge conflicts)
+# =========================
+Saved/Collections/*
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# OS Junk Files
+# =========================
+.DS_Store
+Thumbs.db
