@@ -8,7 +8,18 @@ public class PygmalionEffect : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput" });
+		PublicDependencyModuleNames.AddRange(new string[] { 
+			"Core", 
+			"CoreUObject", 
+			"Engine", 
+			"InputCore", 
+			"EnhancedInput",
+            "Niagara",          // Effect
+		    "UMG",              // UI
+		    "AIModule",         // AI (FSM/BT)
+		    "GameplayTasks",    // AI/Ability º¸Á¶
+		    "NavigationSystem" // NavMesh
+		});
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
